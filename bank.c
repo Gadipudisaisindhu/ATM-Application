@@ -45,7 +45,7 @@ int main()
 			case 3:
 				system("cls");
 				printf("Enter amount to deposit\n");
-				scanf("%d",&deposit);
+				scanf("%d",&deposit); 
 				amount=amount+deposit;
 		        printf("Your account balance is %d\n",amount);
 		        break;
